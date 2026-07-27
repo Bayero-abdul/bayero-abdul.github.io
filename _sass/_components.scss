@@ -70,6 +70,31 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.about-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-content {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.about-profile {
+  flex: 0 0 42%;
+  max-width: 42%;
+  margin: 0;
+}
+
+.about-profile img {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin-left: auto;
+}
+
 .profile.float-right {
   margin-left: 1rem;
 }
@@ -87,6 +112,23 @@ ul.task-list input[type="checkbox"] {
         display: block;
       }
     }
+  }
+}
+
+@media (max-width: 576px) {
+  .about-intro {
+    flex-direction: column;
+  }
+
+  .about-profile {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto 1rem;
+  }
+
+  .about-profile img {
+    margin: 0 auto;
   }
 }
 

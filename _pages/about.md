@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -23,14 +23,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+I am currently a Masters student in Computer Science at [Bayero University](https://buk.edu.ng/Home), Kano. In parallel, I conduct independent research at [ML Collective Africa](https://mlcollective.org/wiki/mlc-africa/).
 
-I am currently an independent researcher at MLC Africa. I am starting my M.Sc. in computer science at Bayero University, Kano in August.
+Previously, I earned a Bachelor’s degree in Computer Engineering from the Department of Computer Engineering at [Ahmadu Bello University](https://abu.edu.ng/), Zaria.
 
-Previously, I obtained my B.eng from the computer engineering department at Ahmadu Bello University, Zaria.
 
-In my free time, I like to write about professional and personal stuffs, checkout my [[blogs]] and [notes](https://abdulnotes.netlify.app/).
+### Research Interest
 
-research interest:
+My research interests lie in developing efficient machine learning algorithms across training and inference, particularly for resource-constrained environments.
 
-large language models, how to make large models more efficient in resource constraint settings.
 
+---
